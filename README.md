@@ -6,8 +6,8 @@ Comparative study for deep learning frameworks to test which framework works out
 
 #Authors :
 1. Aditya R. Karmarkar (karma@udel.edu)
-2. Abdullah Aljanim 
-3. Abdulrahman 
+2. Abdullah Alnajim (alnajim@udel.edu)
+3. Abdulrahman Alshammari (aturqi@kudel.edu)
 
 Start date : 03/31/2017
 End date : 05/05/2017
