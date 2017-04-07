@@ -19,6 +19,6 @@ function trainModel(dataset)
   trainer.learningRate = 0.01
 -- Training --------------------------------------------------------------------
   trainer:train(dataset)
-  torch.save('YeastModel',trainer)
-  return trainer
+  torch.save('YeastModel',model)
+  return model
  end

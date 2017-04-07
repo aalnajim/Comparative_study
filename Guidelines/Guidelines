@@ -1,0 +1,7 @@
+Underlying idea behind comparative study :
+1. Instead of focusing on what sort of model or algorithm is best for given data/field, how model can be constructed, trained and used with help of framework.
+2. Same model built using different framework should perform same for same dataset at given point of time, if it is giving different result then issue with framework build rather than model itself.
+3. Keeping aside accuracy and measure model if platform affects framework's performance then, framework needs hrad look at the aspect because of which it is causing change in performance due to change in underlying platform.
+4. Even if data reading and data understanding is wrong, then by ignoring the working model's faults, Fault tolerance of frameowkr can be tested. That is, if model is wrong or data preprocessing is wrog(by some factor not completely ) even then can framework ignore/correct the faults can be tested.\
+5. Is Framework easier to use?, can be tested based on replication of same model from other framework to current one, also can we used pre-trained model constructed using x framework can be picked-up directly by other framework can govern porting ability of both frameworks.
+   
