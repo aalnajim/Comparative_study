@@ -1,0 +1,38 @@
+1. Goal : Predict safety.
+
+2. Inputs : 5 
+
+3. type of inputs : 
+   buying       v-high, high, med, low
+
+   maint        v-high, high, med, low
+
+   doors        2, 3, 4, 5-more
+
+   persons      2, 4, more
+
+   lug_boot     small, med, big
+
+   safety       low, med, high (Classifiers output)
+
+4. Struture of NN
+
+  a) Units of perceptrons in Input layer : 5
+
+  b) Hidden layer : 3 
+ 
+  c) How output classification works:
+
+     Number of units in output layers : 1
+
+     Classifying output as 0, 0.5, 1
+     Underlying logic 
+         low    0    [0.000 - 0.350]  <= 0.350
+         med    0.5  (0.350 - 0.675]  > 0.350 & <= 0.675
+         high   1.0  (0.675 - 1.000]  >= 0.675
+
+5. Training instances :
+
+6. Testing instances :
+
+7. Model --> CarClassifier.lua
