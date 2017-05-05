@@ -23,7 +23,8 @@ Fields to be considered under this study:
 1. Computationl Biology
 2. GeoPhysics
 3. Statistics
-4. Classical ML 
+4. Classical ML
+5. Imaging 
 
 #Aim :
 Study deep learning frameworks and create guidelines for beginners to use such frameworks. Also, try to rate frameworks based on their usage, simplicity and avalability of documentation.
@@ -42,7 +43,10 @@ TBA
 #Conclusion:
 TBA
 
-
+******Classified content*************
+Image dataset used for Object detection using DNN is copy-right content and ony used for research. 
+If any researcher or Student want to study it then you can request for it here. **http://www.image-net.org/request.**
+*************************************
 
 Project folder has following items:
 1. Datasets --> All datasets used for comparative study. stored as .data{actual data} and .names{description of data} 
