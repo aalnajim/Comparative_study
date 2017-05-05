@@ -1,6 +1,6 @@
 1. Goal : Predict safety.
 
-2. Inputs : 5 
+2. Inputs : 6 
 
 3. type of inputs : 
    buying       v-high, high, med, low
@@ -13,11 +13,11 @@
 
    lug_boot     small, med, big
 
-   safety       low, med, high (Classifiers output)
+   safety       low, med, high 
 
 4. Struture of NN
 
-  a) Units of perceptrons in Input layer : 5
+  a) Units of perceptrons in Input layer : 6
 
   b) Hidden layer : 3 
  
@@ -25,11 +25,12 @@
 
      Number of units in output layers : 1
 
-     Classifying output as 0, 0.5, 1
+     Classifying output as >0.125<, >0.375<, >0.625<, >0.875<
      Underlying logic 
-         low    0    [0.000 - 0.350]  <= 0.350
-         med    0.5  (0.350 - 0.675]  > 0.350 & <= 0.675
-         high   1.0  (0.675 - 1.000]  >= 0.675
+         unacc   0.00    [0.010 - 0.250]  <= 0.250
+         acc     0.50    (0.250 - 0.500]  > 0.250 & <= 0.500
+         good    0.75    (0.500 - 0.750]  > 0.500 & <=0.750
+         v-good  1.00    (0.750 - 1.000]  > 0.750
 
 5. Training instances :
 

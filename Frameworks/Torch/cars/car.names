@@ -63,12 +63,12 @@
 
 7. Attribute Values:
 
-   buying       v-high, high, med, low
-   maint        v-high, high, med, low
-   doors        2, 3, 4, 5-more
-   persons      2, 4, more
-   lug_boot     small, med, big
-   safety       low, med, high
+   buying       v-high, high, med, low  4,3,2,1
+   maint        v-high, high, med, low  4,3,2,1
+   doors        2, 3, 4, 5-more         2,3,4,5
+   persons      2, 4, more              2,4,6
+   lug_boot     small, med, big         1,2,3
+   safety       low, med, high          1,2,3
 
 8. Missing Attribute Values: none
 
@@ -76,7 +76,7 @@
 
    class      N          N[%]
    -----------------------------
-   unacc     1210     (70.023 %) 
-   acc        384     (22.222 %) 
-   good        69     ( 3.993 %) 
-   v-good      65     ( 3.762 %) 
+   unacc     1210     (70.023 %)  0
+   acc        384     (22.222 %)  0.25
+   good        69     ( 3.993 %)  0.5	
+   v-good      65     ( 3.762 %)  0.75
